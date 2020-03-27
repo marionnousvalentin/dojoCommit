@@ -2,4 +2,8 @@ const privateLoggerService = input => {
   console.log("privateLoggerService", { input });
 };
 
-module.exports = { privateLoggerService };
+const configParams = input => {
+  console.log("privateLoggerSdedeervice", { input });
+  return input;
+};
+module.exports = { privateLoggerService, configParams };

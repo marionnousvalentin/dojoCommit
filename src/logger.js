@@ -1,7 +1,8 @@
-const { privateLoggerService } = require("./logger.service");
+const { privateLoggerService, configParams } = require("./logger.service");
 
 const privateLogger = input => {
-  console.log("given input", { input });
+  const formatedInput = configParams(input);
+  console.log("given input", formatedInput);
   privateLoggerService(`call service ${input}`);
 };
 
