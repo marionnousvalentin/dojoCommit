@@ -1,5 +1,5 @@
 const privateLoggerService = input => {
-  console.log("privateLoggerService", { input });
+  console.error("privateLoggerService", { input });
 };
 
 const configParams = input => {
