@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "test": "yarn jest"
+    "test": "yarn jest",
+    "heello": "tests"
   },
   "devDependencies": {
     "jest": "^25.2.3"
